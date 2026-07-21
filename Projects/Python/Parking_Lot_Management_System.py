@@ -48,9 +48,9 @@ vehicle_type = input("Enter vehicle type (Car, Bike, Bus): ").lower()
 parking_hours = int(input("Enter parking hours: "))
 
 if parking_hours < 0:
-    print("Parking hours cannot be negative.")
+    print("Invalid hours.")
 elif vehicle_type not in ["car", "bike", "bus"]:
-    print("Invalid vehicle type. Please enter Car, Bike, or Bus.")
+    print("No Vehicle Found!")
 else:
     final_amount = calculate_parking_fee(vehicle_type, parking_hours)
     print(f"Final amount to be paid: ₹{final_amount}")
