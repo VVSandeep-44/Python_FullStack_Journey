@@ -19,7 +19,6 @@ Print the final total payable amount
 '''
 
 
-
 # Function to calculate parking fee
 def calculate_parking_fee(vehicle_type, parking_hours):
     if vehicle_type == "car":
