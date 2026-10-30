@@ -6,7 +6,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 # Solution:
 
-num = input()
+num = input('Enter numbers separated by commas: ')
 l= num.split(",")
 t=tuple(l)
 print(l)
